@@ -1,6 +1,7 @@
-
 jStrap
 Author Brian Lamb
+
+A Grunt JS tasked application base including modern technologies such as bootstrap, jquery, modernizr, less, and more.
 
 Its my first release under this, but its also my first relase to GitHub. I guess you could say im trying to get off on
  the right foot, or is it the left.
