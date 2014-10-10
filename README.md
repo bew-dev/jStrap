@@ -8,6 +8,7 @@ Its my first release under this, but its also my first relase to GitHub. I guess
 
 This is an application builder that compiles a javascript based application base for new development.  The idea is that
 it adds vendor specific functionality;
+
     - bootstrap
     - modernizr
     - less
@@ -21,22 +22,34 @@ it adds vendor specific functionality;
     - html-lint
     - htmlclean
     - html-prettyprinter
+    
 and more.  With this base functionality when you run a couple commands and right away you have your base application
 ready to take new code. The standard commands to get started are as follows;
-    - $ grunt
-    - $ grunt make-bootstrap
-    - $ grunt pull-vendors
+
+    $ grunt
+    
+    $ grunt make-bootstrap
+    
+    $ grunt pull-vendors
+    
 After you run these commands you will have your base site up and running.  From there, you can test your application to
 make sure it works by loading public/ in a browser.  After this, development can begin.
 
-The development process consists of making your view templates using jade, your css using less, write all your
-javascript to the main javascript file located in the js/ dir.  Once you are done writing in some code, you can run the
-$ grunt command which will run some basic tests on this code, compile it, and shove it into public/ where you can view
+The development process consists of;
+
+    -createview templates using jade
+    -create css using less
+    -create your js to the js/ dir.
+    
+
+Once you are done writing in some code, you can run the following command
+
+    $ grunt
+    
+This will then run some basic lint/tests on this code, compile it, and shove it into public/ where you can view
 it in your browser.
 
-This application is in its early stages and will be morphing into a widely usable, and robust turn-key modern day
-application starter kit, that will embed all kinds of modern goodies automatically so you can stay focused more on
-development instead of distractions.
+jStrap is in it's early stages so the sky is the limit however the direction i intend to see it head is to morph it into a widely usable, and robust turn-key modern day application starter kit, which will embed the modern necessities automatically so you can stay focused more on development instead of distractions.
 
 Copyright (c) 2013 ICRL
 See the file license.txt for copying permission.
