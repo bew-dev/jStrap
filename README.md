@@ -1,9 +1,6 @@
 jStrap
 
-A Grunt JS tasked application base including modern technologies such as bootstrap, jquery, modernizr, less, and more.
-
-Its my first release under this, but its also my first relase to GitHub. I guess you could say im trying to get off on
- the right foot, or is it the left.
+A Grunt JS tasked based web application scaffold including bootstrap, jquery, modernizr, less, and more.
 
 This is an application builder that compiles a javascript based application base for new development.  The idea is that
 it adds vendor specific functionality;
